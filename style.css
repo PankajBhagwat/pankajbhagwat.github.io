@@ -135,12 +135,18 @@ section:nth-of-type(even){ background: var(--bg-alt); }
 .hero-figure{ display:flex; align-items:center; justify-content:center; }
 .hero-profile-photo{
   display:block;
-  width:290px;
-  max-width:100%;
-  height:auto;
+  width:min(290px, 100%);
   aspect-ratio:1 / 1;
+  height:auto;
+
   object-fit:cover;
+  object-position:center top;
+
   border-radius:50%;
+  border:8px solid var(--surface);
+  outline:1px solid var(--line);
+  box-shadow:0 14px 34px rgba(27, 28, 32, .10);
+  background:var(--surface);
 }
 .hero-details{
   margin: 4px 0 20px;
