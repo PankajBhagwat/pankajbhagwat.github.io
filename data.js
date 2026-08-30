@@ -350,6 +350,11 @@ const GALLERY = [
     caption: "IVADO Thematic Semester 2026 — Statistical Foundations for Trustworthy AI, Montréal, May 11, 2026."
   },
   {
+    image: "assets/gallery/Dinner_Bei_Linglong.jpg",
+    alt: "Photo with Bei Jiang and Linglong Kong",
+    caption: "A farewell dinner in Edmonton with Prof. Jiang and Prof. Kong before I begin the next chapter of my academic journey as an Assistant Professor. Grateful for their guidance, support, and all the wonderful moments along the way. (2026)"
+  },
+  {
     image: "assets/gallery/PhotowithEric.jpg",
     alt: "Photo with PhD supervisor Éric Marchand",
     caption: "A memorable moment with my PhD supervisor, Éric Marchand. Throughout this journey, Éric has been a mentor and guide, and together we shared the longest academic adventure of my life. (2023)"
