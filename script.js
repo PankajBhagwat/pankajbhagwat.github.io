@@ -607,7 +607,7 @@ if (
 
 
   // Time each photograph remains visible
-  const AUTOPLAY_DELAY = 3000;
+  const AUTOPLAY_DELAY = 5000;
 
   let currentGalleryIndex = 0;
   let galleryTimer = null;
