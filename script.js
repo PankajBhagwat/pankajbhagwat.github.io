@@ -607,7 +607,7 @@ if (
 
 
   // Time each photograph remains visible
-  const AUTOPLAY_DELAY = 6500;
+  const AUTOPLAY_DELAY = 3000;
 
   let currentGalleryIndex = 0;
   let galleryTimer = null;
@@ -824,6 +824,7 @@ if (
   // ---------------------------------------------------------
   // Pause while user is interacting
   // ---------------------------------------------------------
+  /*
   galleryCarousel.addEventListener(
     "mouseenter",
     stopGalleryAutoplay
@@ -856,7 +857,7 @@ if (
 
     }
   );
-
+*/
 
   // Stop rotating when browser tab is hidden
   document.addEventListener(
