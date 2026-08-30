@@ -365,7 +365,7 @@ const GALLERY = [
     caption: "During my research visit to Rutgers University, where I had the opportunity to work with Professor William E. Strawderman on a challenging statistical problem that led to a beautiful result. (2022)"
   },
   {
-    image: "assets/gallery/Hotpotdinner.png",
+    image: "assets/gallery/Hotpotdinner.PNG",
     alt: "Jiang–Kong Lab members at a hot pot dinner in Edmonton",
     caption: "An enjoyable Jiang–Kong Lab get-together over hot pot in Edmonton. (2025)"
   },
