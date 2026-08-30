@@ -974,21 +974,50 @@ if (usefulLinksGrid && Array.isArray(USEFUL_LINKS)) {
 
 // ---------- Contact ----------
 const contactLinks = document.getElementById("contactLinks");
-const linkRows = [
-  ["Email", `mailto:${SITE.email}`, SITE.email],
-  SITE.phone
-  ? ["Phone", `tel:${SITE.phone.replace(/[^+\d]/g, "")}`, SITE.phone]
-  : null,
-  ["Google Scholar", SITE.links.scholar, "Google Scholar profile"],
-  SITE.links.github
-  ? ["GitHub", SITE.links.github, "GitHub"]
-  : null,
-  SITE.links.orcid ? ["ORCID", SITE.links.orcid, "ORCID profile"] : null,
-  SITE.links.linkedin ? ["LinkedIn", SITE.links.linkedin, "LinkedIn"] : null,
-].filter(Boolean);
-linkRows.forEach(([label, href, text]) => {
-  contactLinks.appendChild(el(`<a href="${href}" target="_blank" rel="noopener"><strong>${label}:</strong> ${escapeHtml(text)}</a>`));
-});
+
+if (contactLinks) {
+
+  const linkRows = [
+    ["Email", `mailto:${SITE.email}`, SITE.email],
+
+    SITE.phone
+      ? ["Phone", `tel:${SITE.phone.replace(/[^+\d]/g, "")}`, SITE.phone]
+      : null,
+
+    ["Google Scholar", SITE.links.scholar, "Google Scholar profile"],
+
+    SITE.links.github
+      ? ["GitHub", SITE.links.github, "GitHub"]
+      : null,
+
+    SITE.links.orcid
+      ? ["ORCID", SITE.links.orcid, "ORCID profile"]
+      : null,
+
+    SITE.links.linkedin
+      ? ["LinkedIn", SITE.links.linkedin, "LinkedIn"]
+      : null,
+
+  ].filter(Boolean);
+
+
+  linkRows.forEach(([label, href, text]) => {
+
+    contactLinks.appendChild(
+      el(`
+        <a
+          href="${href}"
+          target="_blank"
+          rel="noopener"
+        >
+          <strong>${label}:</strong>
+          ${escapeHtml(text)}
+        </a>
+      `)
+    );
+
+  });
+}
 
 // ---------- Mobile nav ----------
 const navBurger = document.getElementById("navBurger");
