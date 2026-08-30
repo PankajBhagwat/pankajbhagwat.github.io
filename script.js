@@ -612,9 +612,7 @@ if (
   let currentGalleryIndex = 0;
   let galleryTimer = null;
 
-  const reduceMotion = window.matchMedia(
-    "(prefers-reduced-motion: reduce)"
-  ).matches;
+
 
 
   // ---------------------------------------------------------
