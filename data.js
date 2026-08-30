@@ -338,10 +338,7 @@ const MENTORSHIP = [
 ];
 
 // ---- Photo gallery -------------------------------------------------------
-// To add a new photo:
-// 1. Place the image in assets/gallery/
-// 2. Add one object below with its filename, alt text, and caption.
-// It will automatically become part of the rotating gallery.
+
 
 const GALLERY = [
   {
@@ -350,7 +347,7 @@ const GALLERY = [
     caption: "IVADO Thematic Semester 2026 — Statistical Foundations for Trustworthy AI, Montréal, May 11, 2026."
   },
   {
-    image: "assets/gallery/Dinner_Bei_Linglong.jpg",
+    image: "assets/gallery/Dinner_Bei_Linglong.png",
     alt: "Photo with Bei Jiang and Linglong Kong",
     caption: "A farewell dinner in Edmonton with Prof. Jiang and Prof. Kong before I begin the next chapter of my academic journey as an Assistant Professor. Grateful for their guidance, support, and all the wonderful moments along the way. (2026)"
   },
