@@ -725,8 +725,7 @@ if (
   function startGalleryAutoplay() {
 
     if (
-      reduceMotion ||
-      GALLERY.length <= 1
+         GALLERY.length <= 1
     ) {
       return;
     }
