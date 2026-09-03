@@ -540,7 +540,7 @@ function renderTeaching(filter){
     .forEach(t => {
       teachList.appendChild(el(`
         <li class="teach-item reveal">
-          <div class="teach-role">${escapeHtml(t.role)}</div>
+          <!-- <div class="teach-role">${escapeHtml(t.role)}</div> -->
           <div class="teach-course">${escapeHtml(t.course)}</div>
           <div class="teach-meta">${escapeHtml(t.place)} · ${escapeHtml(t.term)}</div>
           ${t.page ? `<a class="course-link" href="${escapeAttr(t.page)}">Course webpage</a>` : ""}
