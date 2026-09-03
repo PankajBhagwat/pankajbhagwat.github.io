@@ -11,7 +11,7 @@ const SITE = {
   title: "Assistant Professor",
   dept: "Department of Statistics",
   university: "University of Manitoba",
-  office: "UCommon 5-252",
+  office: "106 Parker, 144 Dysart Road, Winnipeg, MB, R3T 2N2",
   email_formatted: "Pankaj-dot-Bhagwat-at-umanitoba-dot-ca",
   tagline: "Trustworthy AI · Conformal Prediction · Dependence Modeling for Complex Data",
   location: "Winnipeg, Manitoba, Canada",
