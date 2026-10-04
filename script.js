@@ -32,7 +32,7 @@ document.getElementById("herouniversity").textContent = SITE.university;
 document.getElementById("herooffice").textContent = SITE.office;
 document.getElementById("ctaCV").href = SITE.links.cv;
 document.getElementById("footerText").innerHTML = `
-  © ${new Date().getFullYear()} ${escapeHtml(SITE.name)}.
+  © ${new Date().getFullYear()} ${escapeHtml(SITE.name)}
   <span class="footer-separator">·</span>
   Last updated: ${escapeHtml(SITE.lastUpdated)}
 `;
